@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SiteBotDynamix | Custom AI Helpers for Business Growth</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -178,18 +178,18 @@
       <div class="contact-box">
         <h2>Ready for Your Custom AI Helper?</h2>
         <p>Fill out the form below to request a tailored demo trained specifically on your business website.</p>
-        <form id="contactForm" onsubmit="handleFormSubmit(event)">
+        <form action="https://formspree.io/f/mnpjljoq" method="POST">
           <div class="form-group">
-            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
           </div>
           <div class="form-group">
-            <input type="email" id="email" placeholder="Business Email" required>
+            <input type="email" name="email" id="email" placeholder="Business Email" required>
           </div>
           <div class="form-group">
-            <input type="url" id="website" placeholder="Your Business Website (URL)" required>
+            <input type="url" name="website" id="website" placeholder="Your Business Website (URL)" required>
           </div>
           <div class="form-group">
-            <textarea id="message" rows="4" placeholder="Tell us briefly about what services you offer..." required></textarea>
+            <textarea name="message" id="message" rows="4" placeholder="Tell us briefly about what services you offer..." required></textarea>
           </div>
           <button type="submit" class="btn-primary btn-block">Request Custom Demo</button>
         </form>
